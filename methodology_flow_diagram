@@ -1,0 +1,14 @@
+digraph {
+	rankdir=TB size="8,5"
+	A [label="Data Collection"]
+	B [label="Data Preprocessing"]
+	C [label="Exploratory Data Analysis (EDA)"]
+	D [label="Statistical Analysis"]
+	E [label="Predictive Modeling"]
+	F [label="Results Visualization"]
+	A -> B
+	B -> C
+	C -> D
+	D -> E
+	E -> F
+}
